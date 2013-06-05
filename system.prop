@@ -1,6 +1,7 @@
 #
 # system.prop for smdk4x12
 #
+
 dalvik.vm.dexopt-data-only=1
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/ttyS0
@@ -49,6 +50,3 @@ persist.radio.snapshot_disabled=1
 
 # Default ECCList (Except USCC)
 ro.ril.ecclist=112,911,#911,*911
-
-# Default to LTE/CDMA/EvDo Network Mode
-ro.config.qc_lte_network_modes=true
