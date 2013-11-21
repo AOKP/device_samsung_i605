@@ -28,4 +28,5 @@ TARGET_OTA_ASSERT_SKIP = true
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/i605/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
+BOARD_RECOVERY_SWIPE := true
 
